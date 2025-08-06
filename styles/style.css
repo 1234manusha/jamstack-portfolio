@@ -1,0 +1,80 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: #222;
+}
+
+/* Navbar adjustments */
+.navbar-brand {
+  font-weight:700;
+  letter-spacing: 1px;
+  font-style:italic;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Hero section */
+section.bg-light {
+  background-color: #f8f9fa;
+}
+
+section.bg-light h1 {
+  color: #212529;
+}
+
+/* Cards */
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+footer small {
+  letter-spacing: 0.5px;
+}
+
+/* Form */
+form input,
+form textarea {
+  border-radius: 0.3rem;
+}
+
+form button {
+  padding: 10px 20px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
