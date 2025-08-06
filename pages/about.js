@@ -28,7 +28,7 @@ export default function About() {
       <section className="py-5 bg-light">
         <div className="container">
           <h1 className="text-center mb-4">About Me</h1>
-          <p className="lead text-center">I&apos;m a passionate web developer learning to build modern, responsive websites using Bootstrap 5.</p>
+          <p className="lead text-center">I am a passionate web developer learning to build modern, responsive websites using Bootstrap 5.</p>
           <p className="text-center">This portfolio showcases my journey through clean UI design, layout skills, and component-based page building.</p>
         </div>
       </section>
